@@ -19,6 +19,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onCreateEmployeeButtonClicked"
         android:text="Create" />
 
     <EditText
@@ -68,4 +69,19 @@
         android:ems="10"
         android:hint="Weight"
         android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/confirmMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/outputView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Waiting for Input" />
+
 </LinearLayout>

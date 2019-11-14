@@ -3,13 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".EmployeeListActivity" >
+    tools:context=".EmployeeListActivity">
 
-    <TextView
-        android:id="@+id/textView3"
+    <LinearLayout
+        android:id="@+id/Employee1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/employee1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee 1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/emp1FN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not Yet Created"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
 </LinearLayout>
